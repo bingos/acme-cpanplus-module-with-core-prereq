@@ -1,0 +1,14 @@
+use inc::Module::Install;
+name 'ACME-CPANPLUS-Module-With-Core-PreReq';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+version_from 'lib/ACME/CPANPLUS/Module/With/Core/PreReq.pm';
+abstract_from 'lib/ACME/CPANPLUS/Module/With/Core/PreReq.pm';
+readme_from 'lib/ACME/CPANPLUS/Module/With/Core/PreReq.pm';
+license 'perl';
+auto_license holder => 'Chris Williams';
+perl_version '5.006';
+build_requires 'Test::More' => 0.47;
+requires 'Errno' => 0;
+auto_provides;
+githubmeta;
+WriteAll();
