@@ -1,0 +1,26 @@
+NAME
+    ACME::CPANPLUS::Module::With::Core::PreReq - Fake module with a prereq
+    that is a core module for testing CPANPLUS
+
+SYNOPSIS
+     # erm
+
+     cpanp -i ACME::CPANPLUS::Module::With::Core::PreReq
+
+DESCRIPTION
+    ACME::CPANPLUS::Module::With::Core::PreReq is a fake module that has a
+    prerequisite of a core module so I can test something in CPANPLUS and
+    CPANPLUS::YACSmoke
+
+    No moving parts and nothing to see.
+
+AUTHOR
+    Chris "BinGOs" Williams <chris@bingosnet.co.uk>
+
+LICENSE
+    Copyright © Chris Williams
+
+    This module may be used, modified, and distributed under the same terms
+    as Perl itself. Please see the license that came with your Perl
+    distribution for details.
+
