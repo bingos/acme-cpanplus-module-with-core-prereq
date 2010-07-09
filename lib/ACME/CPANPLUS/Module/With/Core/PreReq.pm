@@ -3,7 +3,7 @@ package ACME::CPANPLUS::Module::With::Core::PreReq;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.04';
 
 qq[Nobody here but us chickens];
 
